@@ -92,74 +92,73 @@ Here is an explanation of the project structure:
       - **List- Files.html**: Template page for list files.
       - **Share-File.html**: Template for share file page.
     - **Application.Properties**: Configuration properties for spring boot application.
-Testing/: Testing sources are included in files.
+- Testing/: Testing sources are included in files.
   - **Java/**: includes Java test files.
       - **com/company/Filesharingapp/**: base package for your tests.
           - **Filesharingappplicationtests.java**: test class for main applications.
-**.Gitignore**: Specifies files and directors to be ignored by GIT.
-**Readme.MD**: Project documentation.
-**MVNW**: Maven wrappers script for Unix-based systems.
-**MVNW.CMD**: Maven Wrapping Script for Windows.
-**POM.XML**: The Project Object Model File is used by Maven to manage project dependence and create configurations.
+- **.Gitignore**: Specifies files and directors to be ignored by GIT.
+- **Readme.MD**: Project documentation.
+- **MVNW**: Maven wrappers script for Unix-based systems.
+- **MVNW.CMD**: Maven Wrapping Script for Windows.
+- **POM.XML**: The Project Object Model File is used by Maven to manage project dependence and create configurations.
 
 
 
 # Project Structure
 
 **Project-root/**
-├── .mvn/
-│   └── wrapper/
-├── mvn-wrapper.properties
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── fileSharingApp/
-│   │   │               ├── configuration/
-│   │   │               │   ├── SchedulingConfig.java
-│   │   │               │   ├── SecurityConfig.java
-│   │   │               │   ├── WebConfig.java
-│   │   │               ├── controller/
-│   │   │               │   ├── fileController.java
-│   │   │               ├── entity/
-│   │   │               │   ├── FileEntity.java
-│   │   │               ├── exception/
-│   │   │               │   ├── FileNotFoundException.java
-│   │   │               │   ├── GlobalExceptionHandler.java
-│   │   │               ├── model/
-│   │   │               │   ├── FileModel.java
-│   │   │               ├── repository/
-│   │   │               │   ├── FileRepository.java
-│   │   │               ├── service/
-│   │   │               │   ├── FileService.java
-│   │   │               │   ├── FileServiceImpl.java
-│   │   │               ├── FileSharingAppApplication.java
-│   ├── resources/
-│   │   ├── static/
-│   │   │   ├── styles/
-│   │   │   │   ├── assets/
-│   │   │   │   │   ├── leftpc.png
-│   │   │   │   │   ├── rightpc.png
-│   │   │   │   ├── css/
-│   │   │   │   │   ├── homestyle.css
-│   │   │   │   │   ├── list-files.css
-│   │   │   │   │   ├── share-files.css
-│   │   ├── templates/
-│   │   │   ├── home.html
-│   │   │   ├── list-files.html
-│   │   │   ├── share-file.html
-│   │   ├── application.properties
-├── test/
-│   ├── java/
-│   │   └── com/
-│   │       └── company/
-│   │           └── fileSharingApp/
-│   │               ├── FileSharingAppApplicationTests.java
-├── .gitignore
-├── Readme.md
-├── mvnw
-├── mvnw.cmd
-├── pom.xml
 
-
+- **.mvn/**
+  - **wrapper/**
+- **mvn-wrapper.properties**
+- **src/**
+  - **main/**
+    - **java/**
+      - **com/**
+        - **example/**
+          - **fileSharingApp/**
+            - **configuration/**
+              - **SchedulingConfig.java**
+              - **SecurityConfig.java**
+              - **WebConfig.java**
+            - **controller/**
+              - **fileController.java**
+            - **entity/**
+              - **FileEntity.java**
+            - **exception/**
+              - **FileNotFoundException.java**
+              - **GlobalExceptionHandler.java**
+            - **model/**
+              - **FileModel.java**
+            - **repository/**
+              - **FileRepository.java**
+            - **service/**
+              - **FileService.java**
+              - **FileServiceImpl.java**
+            - **FileSharingAppApplication.java**
+  - **resources/**
+    - **static/**
+      - **styles/**
+        - **assets/**
+          - **leftpc.png**
+          - **rightpc.png**
+        - **css/**
+          - **homestyle.css**
+          - **list-files.css**
+          - **share-files.css**
+    - **templates/**
+      - **home.html**
+      - **list-files.html**
+      - **share-file.html**
+    - **application.properties**
+- **test/**
+  - **java/**
+    - **com/**
+      - **company/**
+        - **fileSharingApp/**
+          - **FileSharingAppApplicationTests.java**
+- **.gitignore**
+- **Readme.md**
+- **mvnw**
+- **mvnw.cmd**
+- **pom.xml**
