@@ -3,7 +3,7 @@ Here is a description for your github repository:
 
 # Filesharingmanager
 
-** Filesharingmanager ** is a web application designed to streamline the file-sharing process. Built using HTML, CSS, Java and Spring Boot, this app provides a user friendly interface to upload, share and manage files easily.
+**Filesharingmanager** is a web application designed to streamline the file-sharing process. Built using HTML, CSS, Java and Spring Boot, this app provides a user friendly interface to upload, share and manage files easily.
 
 ## features
 
