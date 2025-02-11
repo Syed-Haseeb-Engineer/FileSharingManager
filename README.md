@@ -1,6 +1,5 @@
 Here is a description for your github repository:
 
-,
 
 # Filesharingmanager
 
@@ -31,9 +30,7 @@ Here is a description for your github repository:
 
 To start with the project, clone the repository and follow the installation instructions provided in the Reidme file.i will add later.
 
-,
 
-Feel free to adjust or expand this description to better fit the nuances and style of your repository!
 ![Screenshot (13)](https://github.com/user-attachments/assets/ef4fc71b-e76b-4f66-ad12-a0cfb4ffe13f)
 ![Screenshot (14)](https://github.com/user-attachments/assets/31ab7eae-5319-4723-af6f-8a82eca554a6)
 ![Screenshot (15)](https://github.com/user-attachments/assets/6592219b-4f22-4cad-8a6f-c8a69ca8ed1c)
