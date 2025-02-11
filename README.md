@@ -104,7 +104,8 @@ Testing/: Testing sources are included in files.
 
 
 
-#Project Structure
+# Project Structure
+
 **Project-root/**
 ├── .mvn/
 │   └── wrapper/
