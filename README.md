@@ -7,24 +7,24 @@ Here is a description for your github repository:
 
 ## features
 
-- ** Home Page **: Provides an introduction and observation of the functionality of the application.
-- ** User authentication **: Users can log in using their Google or Github accounts.
-- ** File uploaded **: After logging in, users can upload files, can see their most recent uploads, and manage them.
-- ** File share sharing **: For those files, generate shared URLs that can be downloaded without other logs.
-- ** File Management **: Easily remove files that are no longer needed.
+- **Home Page**: Provides an introduction and observation of the functionality of the application.
+- **User authentication**: Users can log in using their Google or Github accounts.
+- **File uploaded**: After logging in, users can upload files, can see their most recent uploads, and manage them.
+- **File share sharing**: For those files, generate shared URLs that can be downloaded without other logs.
+- **File Management**: Easily remove files that are no longer needed.
 
 ## Use
 
-1. ** Homepage **: Navigate on the homepage to learn more about the application.
-2. ** Login **: Click on the login button to sign in to sign in using your Google or Github account.
-3. ** Upload files **: Once logged in, reach the file upload page to upload new files.
-4. ** Manage files **: Look and manage your uploaded files, including the options for sharing or removing them.
-5. ** Share files **: Click on a file to generate a shared URL. Share this URL with others so that they can be allowed to download the file without the need to log in.
+1. **Homepage**: Navigate on the homepage to learn more about the application.
+2. **Login**: Click on the login button to sign in to sign in using your Google or Github account.
+3. **Upload files**: Once logged in, reach the file upload page to upload new files.
+4. **Manage files**: Look and manage your uploaded files, including the options for sharing or removing them.
+5. **Share files**: Click on a file to generate a shared URL. Share this URL with others so that they can be allowed to download the file without the need to log in.
 
 ## used technologies
 
-- ** Frontnd **: HTML, CSS
-- ** Backand **: Java, Spring Boot
+- **Frontnd**: HTML, CSS
+- **Backand**: Java, Spring Boot
 
 ## launch
 
