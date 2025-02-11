@@ -44,3 +44,121 @@ To start with the project, clone the repository and follow the installation inst
 ![Screenshot (24)](https://github.com/user-attachments/assets/9c45c149-eae7-4ec3-8d37-fc8a142a69ea)
 ![Screenshot (25)](https://github.com/user-attachments/assets/f271ed0e-24cc-4a2c-9a55-a4f42456d262)
 ![Screenshot (26)](https://github.com/user-attachments/assets/0ee3fe76-9edd-41c4-808f-f0945790b335)
+
+Here is an explanation of the project structure:
+
+**Project-Root/**: This is the route directory of your project.
+
+, MVN/**: This directory includes the Maven Wrapping Files, which allow you to run the Maven command without the need to install manually.
+  - **Rapper/**: The script required for mahen rapper and 'MVN-Wrappper.jar` file are included.
+
+- **MVN- Wrapper.Properties**: Configuration properties for maven cover.
+
+- **SRC/**: The main source directory for the project.
+  - **Main/**: The main application code is included.
+    - **Java/**: Java sources include files.
+      - **com/example/Filesharingapp/**: Aadhaar package for your application.
+        - **Configuration/**: Configuration classes include.
+          - **Scheduling Konfig. Jawa**: Configuration for scheduling works.
+          - **Securityconfig.java**: Configuration for safety settings.
+          - **webconfig.java**: Configuration for web settings.
+        - **Controller/**: Controller Classes include HTTP requests.
+          - **Filecontroller.java**: Controller for file-related operation.
+        - **Unit/**: Included unit classes that represent data models.
+          - **Filentity.java**: Unit class for file data.
+        - **Exception/**: Exceptions include handling classes.
+          - **FilenotFoundexception.java**: Custom exception for file not found errors.
+          - **Globalexceptionhandler.java**: Handles global exceptions.
+        - **Model/**: Model classes include.
+          - **Filemodel.java**: Model class for file data.
+        - **Repository/**: Repository interfaces for database operations.
+          - **Filerepository.java**: Repository interface for file data.
+        - Service/: Services include classes that apply business logic.
+            **Fileservice.java**: Service Interface for File Operations.
+            **Fileserviceimpl.java**: Implementation of Filesvice Interface.
+        - Filesharingapppplication.java: The main application class that bootes the spring boot application.
+- Resources/: Application Resources.
+    - **Static/**: includes static resources such as CSS and images.
+        - **Styles/**: This includes CSS style and assets.
+          - **Property/**: Image property is involved.
+          - **Leftpc.png**: left PC image.
+          - **Rightpc.png**: Right PC Image.
+        - **CSS/**: CSS files are included.
+          - **Homestyle.CSS**: CSS for home page.
+          - **List-Files.css**: CSS for list files.
+          - **Share Files.CSS**: CSS for share file page.
+    - **Templates/**: The thymelf templates to provide HTML page.
+      - **Home.html**: Template for home page.
+      - **List- Files.html**: Template page for list files.
+      - **Share-File.html**: Template for share file page.
+    - **Application.Properties**: Configuration properties for spring boot application.
+Testing/: Testing sources are included in files.
+  - **Java/**: includes Java test files.
+      - **com/company/Filesharingapp/**: base package for your tests.
+          - **Filesharingappplicationtests.java**: test class for main applications.
+**.Gitignore**: Specifies files and directors to be ignored by GIT.
+**Readme.MD**: Project documentation.
+**MVNW**: Maven wrappers script for Unix-based systems.
+**MVNW.CMD**: Maven Wrapping Script for Windows.
+**POM.XML**: The Project Object Model File is used by Maven to manage project dependence and create configurations.
+
+
+
+#Project Structure
+**Project-root/**
+├── .mvn/
+│   └── wrapper/
+├── mvn-wrapper.properties
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── fileSharingApp/
+│   │   │               ├── configuration/
+│   │   │               │   ├── SchedulingConfig.java
+│   │   │               │   ├── SecurityConfig.java
+│   │   │               │   ├── WebConfig.java
+│   │   │               ├── controller/
+│   │   │               │   ├── fileController.java
+│   │   │               ├── entity/
+│   │   │               │   ├── FileEntity.java
+│   │   │               ├── exception/
+│   │   │               │   ├── FileNotFoundException.java
+│   │   │               │   ├── GlobalExceptionHandler.java
+│   │   │               ├── model/
+│   │   │               │   ├── FileModel.java
+│   │   │               ├── repository/
+│   │   │               │   ├── FileRepository.java
+│   │   │               ├── service/
+│   │   │               │   ├── FileService.java
+│   │   │               │   ├── FileServiceImpl.java
+│   │   │               ├── FileSharingAppApplication.java
+│   ├── resources/
+│   │   ├── static/
+│   │   │   ├── styles/
+│   │   │   │   ├── assets/
+│   │   │   │   │   ├── leftpc.png
+│   │   │   │   │   ├── rightpc.png
+│   │   │   │   ├── css/
+│   │   │   │   │   ├── homestyle.css
+│   │   │   │   │   ├── list-files.css
+│   │   │   │   │   ├── share-files.css
+│   │   ├── templates/
+│   │   │   ├── home.html
+│   │   │   ├── list-files.html
+│   │   │   ├── share-file.html
+│   │   ├── application.properties
+├── test/
+│   ├── java/
+│   │   └── com/
+│   │       └── company/
+│   │           └── fileSharingApp/
+│   │               ├── FileSharingAppApplicationTests.java
+├── .gitignore
+├── Readme.md
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+
+
